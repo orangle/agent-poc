@@ -1,0 +1,18 @@
+{
+  "name": "claude-cli-approval-poc",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Claude CLI 权限审批 POC - 通过本地网页进行授权确认",
+  "scripts": {
+    "start": "node web-server.mjs",
+    "run:mock": "node run-mock.mjs",
+    "run:claude": "node run-claude.mjs"
+  },
+  "keywords": ["claude", "cli", "approval", "mcp"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}

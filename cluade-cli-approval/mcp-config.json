@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "approval-server": {
+      "command": "node",
+      "args": ["./mcp-approval-server.mjs"],
+      "env": {
+        "APPROVAL_WEB_BASE": "http://localhost:3131"
+      }
+    }
+  }
+}
